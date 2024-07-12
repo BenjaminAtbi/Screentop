@@ -19,11 +19,8 @@ namespace Screentop
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void TextBlock_MouseUp(object sender, MouseButtonEventArgs e)
-        {
-
+            var mainVM = new MainVM();
+            DataContext = mainVM;
         }
     }
 }

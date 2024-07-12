@@ -4,11 +4,10 @@
              xmlns:local="clr-namespace:Screentop"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <DataTemplate DataType="{x:Type local:tableVM}">
-            <StackPanel Orientation="Horizontal">
-                <TextBlock Text="{Binding Name}" Width="100"/>
-                <CheckBox IsChecked="{Binding Value}" Width="100"/>
-            </StackPanel>
+        <DataTemplate DataType="{x:Type local:TableVM}">
+            <Viewbox >
+                <Canvas Background="LightSteelBlue"></Canvas>
+            </Viewbox>
         </DataTemplate>
     </Application.Resources>
 </Application>

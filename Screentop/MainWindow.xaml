@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:Screentop"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="72" MouseUp="TextBlock_MouseUp">Hello, WPF!</TextBlock>
-    </Grid>
-</Window>
+
+        <Button Content="I'm a Button" Width="150"/>
+        <!-- <ContentControl Content="{Binding Tablespace}"></ContentControl> -->
+
+</Window> 
