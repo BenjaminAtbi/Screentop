@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Screentop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90ed2c60734917f77288991579e06b1bed8b0ed4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6aa802d9bfbe498a547268a0fba6811f570a5581")]
 [assembly: System.Reflection.AssemblyProductAttribute("Screentop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Screentop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
